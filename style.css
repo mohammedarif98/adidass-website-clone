@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #000000;
+    font-size: 15px;
+    
+}
+.bt-logo{
+    font-size: 23px;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath  stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+.navbar-dark .navbar-toggler {
+    border: 1px solid black;
+}
+.bg-img{
+    position: relative;
+}
+.bg-content{
+    top: 30%;
+    left: 10%;
+    position: absolute;
+}
+.h2{
+    font-weight: bolder;
+    color: aliceblue;
+}
+.bg-content button{
+    color: aliceblue;
+    
+}
+.card:hover{
+    border: 1px solid black;
+}
+.btn-styl button:hover{
+    border: 1px solid black;
+
+}
+.sel-bg{
+    position: relative;
+}
+.selection{
+position: absolute;
+top: 50%;
+left: 40%;
+}
+/* .add-img {
+    width: 200px;
+} */
+.vertical{
+    border-left: 2px solid black;
+    height: 30px;
+    position:absolute;
+
+}
